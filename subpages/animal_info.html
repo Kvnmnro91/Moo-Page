@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Information</title>
+    <link rel="icon" type="image/png" href="../images/moo_title_png.png">
+    <link href="../moo_style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <p id="logo_text">Moo Moo</p>
+        </div>      
+        <nav>
+            <ul id="nav_links">
+                <h3>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="quals.html">Qualifications</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </h3>
+                <form id="buttons" action="account_home.html">
+                    <button id="account_button">Account Home</button><button id="logout_button" formaction="logout.html">Logout</button>
+                </form>
+            </ul>
+        </nav>
+    </div>
+    <h1>Animal Information</h1>
+    <hr>
+    <br>
+    <br>
+    <form id="owned_pets" name="owned_pets">
+        Please select which pets you currently own:
+        <br>
+        <input type="checkbox" id="owned_pets" name="dog" value="Dog">
+        <label for="dog">Dog</label>
+        <input type="checkbox" id="owned_pets" name="cat" value="Cat">
+        <label for="cat">Cat</label>
+        <input type="checkbox" id="owned_pets" name="bird" value="Bird">
+        <label for="bird">Bird</label>
+        <input type="checkbox" id="owned_pets" name="fish" value="Fish">
+        <label for="fish">Fish</label>
+        <input type="checkbox" id="owned_pets" name="mouse" value="Mouse">
+        <label for="mouse">Mouse</label>
+        <br>
+        <input type="checkbox" id="owned_pets" name="cow" value="Cow">
+        <label for="cow">Cow</label>
+        <input type="checkbox" id="owned_pets" name="squirrel" value="Squirrel">
+        <label for="squirrel">Squirrel</label>
+        <input type="checkbox" id="owned_pets" name="phoenix" value="Phoenix">
+        <label for="phoenix">Phoenix</label>
+        <input type="checkbox" id="owned_pets" name="other" value="Other">
+        <label for="other">Other</label>
+    </form>
+    <br>
+    <br>
+    <form id="add_pets" name="add_pet">
+        Add a specific pet:
+        <br>
+        <input type="text" placeholder="Pet Name">
+        <br>
+        <br>
+        <label for="add_pet">Animal type:</label>
+        <br>
+        <select id="add_pet" name="add_pet">
+            <option value="choose">Select</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="bird">Bird</option>
+            <option value="fish">Fish</option>
+            <option value="mouse">Mouse</option>
+            <option value="cow">Cow</option>
+            <option value="squirrel">Squirrel</option>
+            <option value="phoenix">Phoenix</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        Animal age:
+        <br>
+        <select id="age" name="age">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+        </select>
+        <br>
+        <br>
+        Favorite Treat:
+        <br>
+        <input type="radio" name="treat" value="milk bone" id="milk bone">
+        <label for="milk bone">Milk Bone</label>
+        <input type="radio" name="treat" value="bone" id="bone">
+        <label for="bone">Bone</label>
+        <input type="radio" name="treat" value="cheese" id="cheese">
+        <label for="cheese">Cheese</label>
+        <br>
+        <input type="radio" name="treat" value="fruit" id="fruit">
+        <label for="fruit">Fruit</label>
+        <input type="radio" name="treat" value="meat" id="meat">
+        <label for="meat">Meat</label>
+        <input type="radio" name="treat" value="other" id="other">
+        <label for="other">Other</label>
+        <br>
+        <br>
+        Rabies Vaccinated?
+        <br>
+        <input type="radio" name="rabies" value="rabies_yes" id="rabies_yes">
+        <label for="rabies_yes">Yes</label>
+        <input type="radio" name="rabies" value="rabies_no" id="rabies_no">
+        <label for="rabies_no">No</label>
+        <br>
+        <br>
+        <textarea name="comment" rows="10" cols="30" placeholder="Enter Comments"></textarea>
+        <br>
+        <br>
+        <button id="save_button" type="submit" formaction="account_home.html">Save Pet</button>
+        <br>
+        <br>
+    </form>
+    <br> 
+    <br>
+    <hr>
+    <footer>
+        Questions?
+        <p>Call her at <a href="tel:530-927-MOOO">530-927-MOOO</a></p>
+        <p>Email her at <a href="mailto:kvnmnro@gmail.com">kvnmnro@gmail.com</a></p>
+        <p>Copywright Moo Moo Inc 2025</p>
+    </footer>
+</body>
+</html>
