@@ -132,6 +132,7 @@ nav {
     align-items: center;
     margin-left: auto;
     width: 30%;
+    border-left: 2px solid black;
 }
 .testimonial {
     width: 80%;
