@@ -33,6 +33,7 @@ h2 {
 #logo_text {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: xx-large;
 }
 #logo_text:hover {
     animation: scale_up 2s linear infinite;
@@ -48,6 +49,7 @@ nav {
 #nav_links li {
     display: inline;
     margin-right: 10px;
+    font-size: xx-large;
 }
 #nav_links a:link {
     text-decoration: none;
