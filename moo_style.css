@@ -152,21 +152,20 @@ nav {
     flex-wrap: wrap;
     height: auto;
     justify-content: space-evenly;
-    border: 2px solid purple;
 }
 .photo {
-    border: 2px solid gold;
     display: flex;
-    flex-basis: 33%;
+    flex-shrink: 0;
+    flex-basis: 40%;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     height: 300px;
-    width: 150px;
 }
 .photo > .photo_pic {
     max-height: 100%;
+    max-width: 100%;
     border: 2px solid black;
     border-radius: 20px;
 }
