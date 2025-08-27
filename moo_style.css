@@ -318,7 +318,7 @@ td, th {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: lightblue;
     border: 2px solid black;
     border-radius: 5px;
     height: 180px;
