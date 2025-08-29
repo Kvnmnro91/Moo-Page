@@ -71,12 +71,6 @@ nav {
     border-style: solid; 
     border-color: black;
 }
-.main_div {
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5px;
-}
 #account_button {
     border-radius: 4px;
     transition: color, background-color 0.4s;
@@ -163,7 +157,7 @@ nav {
 .photo {
     display: flex;
     flex-shrink: 0;
-    flex-basis: 40%;
+    flex-basis: 35%;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
@@ -181,22 +175,32 @@ nav {
 }
 
 /*Services Styling*/
-#services_container {
+#main_div_services {
     display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+    height: auto;
     border: 2px solid black;
     border-radius: 10px;
     background-color: white;
+}
+#services_heading {
+    display: flex;
     width: 100%;
-    height: auto;
-    justify-content: space-evenly;
+    margin: 10px;
 }
 .service {
     display: flex;
-    border: 2px solid black;
+    flex-shrink: 0;
+    flex-basis: 35%;
     justify-content: center;
-    align-items: center;
-    height: 150px;
-    width: 33%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    background-color: lightgreen;
+
 }
 
 /*Account Home styling*/
@@ -356,6 +360,7 @@ td, th {
 /*Footer*/
 footer {
     background-color: bisque;
+    border: 2px solid black;
     font-size: larger;
     padding: 10px;
     border-radius: 15px;
