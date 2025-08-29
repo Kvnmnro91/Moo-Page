@@ -170,9 +170,6 @@ nav {
     border: 2px solid black;
     border-radius: 20px;
 }
-.photo_pic:hover {
-    transform: scale(1.5);
-}
 
 /*Services Styling*/
 #main_div_services {
