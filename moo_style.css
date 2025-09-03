@@ -12,7 +12,7 @@ h2 {
 /*Global styling*/
 .container {
     display: flex;
-    height: 100px;
+    height: 150px;
     width: auto;
     border-style: double;
     background-color: lightblue;
@@ -178,9 +178,7 @@ nav {
     flex-shrink: 0;
     justify-content: space-evenly;
     height: auto;
-    border: 2px solid black;
     border-radius: 10px;
-    background-color: white;
 }
 #services_heading {
     display: flex;
@@ -198,7 +196,7 @@ nav {
     width: auto;
     margin-top: 10px;
     margin-bottom: 40px;
-    background-color: bisque;
+    background-color: #FFFFFF;
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px 10px;
