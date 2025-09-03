@@ -325,6 +325,8 @@ td, th {
 /*Login styling*/
 .login_container {
     display: flex;
+    flex-direction: column;
+    height: 630px;
     align-items: center;
     justify-content: center;
 }
@@ -356,7 +358,7 @@ td, th {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 630px;
 }
 #logout_box {
     display: flex;
